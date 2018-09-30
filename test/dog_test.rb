@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/dog'
 
-class dogTest < Minitest::Test
+class DogTest < Minitest::Test
 
   def test_it_has_attributes
     dog = Dog.new("Comet", "German Shepherd")
